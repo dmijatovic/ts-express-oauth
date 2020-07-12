@@ -1,6 +1,6 @@
 # Minimal Node auth server
 
-This projects tries to create lean auth server with NodeJS. This is a proof of concept. In another experiement I used Polka web server as very light server. Here we will use express instead and compare the difference. I think that most beneficial component of Polka approach is compiling nodejs code using zeit/ncc compiler.
+This projects tries to create lean auth server with NodeJS. This is a proof of concept. In another experiement I used Polka web server as very light server. Here we will use express instead and compare the difference. I think that most beneficial component of Polka approach is compiling nodejs code using zeit/ncc compiler. The difference between these two images is 1 MB, polka server image is 39MB and express server image is 40MB.
 
 General approach is as follows:
 
